@@ -1,0 +1,400 @@
+
+/* for responsive [MOBILE QUERY]*/
+
+@media only screen and (max-width:850px) {
+    /* Add your css here again*/
+    .menu-btn{
+        display: block;
+    }
+    .navbar
+    {
+        padding: 0%;
+
+    }
+    .logo
+    {
+        position: absolute;
+        top:30px;
+        left: 30px;
+
+    }
+    .nav-links
+    {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;  
+        justify-content: center;
+        background:url('img/bg2.png');
+        margin-top: -900px;
+        transition:all 0.5s ease;
+        justify-items:first baseline;
+        transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-left-radius:960px ;
+    }
+    .nav-links a {
+        margin: 90px;
+    }
+    .explore
+    {   
+            width: auto;
+            height: auto;
+      
+    }
+    .explore-content
+    {
+        width:auto;
+        height: auto;
+    }
+    .explore-content .line{
+        margin-bottom:10px;
+        margin-left:8%;
+    }
+    
+    .explore-content .h4
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .events
+    {
+        
+
+    }
+    .events .column1 h4
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .events .column1 a {
+        margin: 5%
+    
+    }
+    .events .row
+    {
+        display: list-item;
+    }
+   .events .row .column1 img
+    {
+        width: 80%;
+        height: 60%;
+        border-radius: 4%;
+        border-style: unset;
+        border-bottom-right-radius: 100px;
+        
+    }
+    .events .row .column2 img 
+    {
+        width: 110%;
+        height:100%;
+        align-items:center;
+        margin-right:15%;;
+        border-radius: 4%;
+        box-sizing: border-box;
+        border-style:outset;
+        border-bottom-right-radius: 100px;
+    
+    }
+    .row .column1
+    {
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .events .row .column2 a
+    {
+        margin-right:5px;
+        margin-top:20px;
+
+    }
+
+    .row p {
+        font-size: 3vh;
+        
+    }
+    .explore-content
+    {
+        display:flex;
+        /*justify-content: space-between;*/
+
+    }
+    .explore-content h1
+    {
+        text-align:left;
+        font-size: 49px;
+        font-display:initial;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .explore-content p {
+            font-size:17px;
+          
+        }
+    .explore-content a
+    {
+        margin-top: 10%;
+
+        
+    }
+    .tours
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .tours .content-col 
+    {
+        display: flex;
+        flex-direction: column;
+        content: normal;
+    }
+    .tours .content-col  h1
+    {
+        font-size: 30px;
+
+    }
+    .tours .content-col a
+    {
+        margin-top:10%;
+    }
+    .tours .image-col img
+    {
+        display: flex;
+        /* for responsive [MOBILE QUERY]*/
+        
+        @media only screen and (max-width:850px) {
+            /* Add your css here again*/
+            .menu-btn{
+                display: block;
+            }
+            .navbar
+            {
+                padding: 0%;
+        
+            }
+            .logo
+            {
+                position: absolute;
+                top:30px;
+                left: 30px;
+        
+            }
+            .nav-links
+            {
+                flex-direction: column;
+                width: 100%;
+                height: 100vh;  
+                justify-content: center;
+                background:url('img/bg2.png');
+                margin-top: -900px;
+                transition:all 0.5s ease;
+                justify-items:first baseline;
+                transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+            }
+            .mobile-menu{
+                margin-top: 0px;
+                border-bottom-left-radius:960px ;
+            }
+            .nav-links a {
+                margin: 90px;
+            }
+            .explore
+            {   
+                    width: auto;
+                    height: auto;
+              
+            }
+            .explore-content
+            {
+                width:auto;
+                height: auto;
+            }
+            .explore-content .line{
+                margin-bottom:10px;
+                margin-left:8%;
+            }
+            
+            .explore-content .h4
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .events
+            {
+                
+        
+            }
+            .events .column1 h4
+            {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+        
+            }
+            .events .column1 a {
+                margin: 5%
+            
+            }
+            .events .row
+            {
+                display: list-item;
+            }
+           .events .row .column1 img
+            {
+                width: 80%;
+                height: 60%;
+                border-radius: 4%;
+                border-style: unset;
+                border-bottom-right-radius: 100px;
+                
+            }
+            .events .row .column2 img 
+            {
+                width: 110%;
+                height:100%;
+                align-items:center;
+                margin-right:15%;;
+                border-radius: 4%;
+                box-sizing: border-box;
+                border-style:outset;
+                border-bottom-right-radius: 100px;
+            
+            }
+            .row .column1
+            {
+          
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+        
+            }
+            .events .row .column2 a
+            {
+                margin-right:5px;
+                margin-top:20px;
+        
+            }
+        
+            .row p {
+                font-size: 3vh;
+                
+            }
+            .explore-content
+            {
+                display:flex;
+                /*justify-content: space-between;*/
+        
+            }
+            .explore-content h1
+            {
+                text-align:left;
+                font-size: 49px;
+                font-display:initial;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+        
+            }
+            .explore-content p {
+                    font-size:17px;
+                  
+                }
+            .explore-content a
+            {
+                margin-top: 10%;
+        
+                
+            }
+            .tours
+            {
+                width: 100%;
+                height:100%;
+            }
+        
+            .tours .content-col 
+            {
+                display: flex;
+                flex-direction: column;
+                content: normal;
+            }
+            .tours .content-col  h1
+            {
+                font-size: 30px;
+        
+            }
+            .tours .content-col a
+            {
+                margin-top:10%;
+            }
+            .tours .image-col img
+            {
+                display: flex;
+                flex-wrap: wrap;
+                height: 10%;
+                
+            }
+            .tours .content-col p
+            {
+                width: auto;
+                height: auto;
+            } 
+            .image-col
+            {
+                width: 49%;
+                margin-right:20px;
+                margin-left: 0%;
+                padding: 0px;
+                margin-bottom: ;
+            }
+            .tours .image-gallery
+            {
+                display: flex;
+                flex-wrap:wrap;
+                width:100%;
+                align-items: center;
+        
+            }
+            .image-gallery img
+            {
+                max-width:60px;
+                margin:9px;
+        
+            }  
+        
+        
+        }
+        flex-wrap: wrap;
+        height: 10%;
+        
+    }
+    .tours .content-col p
+    {
+        width: auto;
+        height: auto;
+    } 
+    .image-col
+    {
+        width: 49%;
+        margin-right:20px;
+        margin-left: 60%;
+        padding: px;
+        margin-bottom: 100px;
+    }
+    .tours .image-gallery
+    {
+        display: flex;
+        flex-wrap:wrap;
+        width:100%;
+      /*  align-items: center;*/
+      margin-bottom:80%;
+    
+
+    }
+    .image-gallery img
+    {
+        max-width:90px;
+        margin:4px;
+    }  
+
+
+}
